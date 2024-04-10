@@ -3,7 +3,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sqccltobn6ax/public_html/
-    - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R elements.html $DEPLOYPATH
