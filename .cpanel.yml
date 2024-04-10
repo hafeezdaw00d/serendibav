@@ -3,3 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sqccltobn6ax/public_html/
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp elements.html $DEPLOYPATH
+    - /bin/cp generic.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
