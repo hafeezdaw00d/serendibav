@@ -1641,10 +1641,10 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Helvetica, Arial, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
-		line-height: 1.75;
+		line-height: 1.5;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1890,7 +1890,7 @@
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(0,0,0,1) !important;
 		border-radius: 3em;
 		color: black !important;
 		cursor: pointer;
@@ -2580,11 +2580,11 @@
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #000;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #000;
 				}
 
 /* Image */
@@ -2594,7 +2594,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-        max-width: 900px;
+        max-width: 1200px;
 	}
 
 		.image img {
@@ -3040,7 +3040,7 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgba(0,0,0, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
