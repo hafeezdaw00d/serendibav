@@ -5,8 +5,7 @@ deployment:
     - export DEPLOYPATH=/home/sqccltobn6ax/public_html/
     - /bin/cp -R .vscode $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R elements.html $DEPLOYPATH
+    - /bin/cp -R generic.html $DEPLOYPATH
     /bin/cp index.html $DEPLOYPATH
